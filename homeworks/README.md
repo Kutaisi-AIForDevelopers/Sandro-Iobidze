@@ -1,10 +1,11 @@
-# Homeworks
+# hw-03 — LeetCode (week 3)
 
-One folder per assignment: `hw-01`, `hw-02`, ...
-Copy `_template/` to start a new one.
+| # | Problem | File | Idea |
+|---|---------|------|------|
+| 344 | Reverse String | `reverse_string_344.py` | two pointers |
+| 125 | Valid Palindrome | `valid_palindrome_125.py` | two pointers + skip non-alphanumeric |
+| 242 | Valid Anagram | `valid_anagram_242.py` | letter counts |
+| 217 | Contains Duplicate | `contains_duplicate_217.py` | set |
+| 26 | Remove Duplicates from Sorted Array | `remove_duplicates_from_sorted_array_26.py` | slow/fast pointers |
 
-| # | Task | Status | Grade |
-|---|------|--------|-------|
-| 01 | Online store order system (discounts, promo code, delivery, payment) | done | - |
-| 02 | Week 2 class material: string methods, lists, tuples, sets, while loop | done | - |
-| 03 | Week 3 LeetCode: reverse string, valid palindrome, valid anagram, contains duplicate, remove duplicates | done | - |
+Each solution also has a flat `_improved.py` version (no class, short comments, test inputs) that runs with `python <name>_improved.py`.
